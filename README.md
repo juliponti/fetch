@@ -3,7 +3,7 @@
 ## Ejercicio para [CourseIt](https://courseit.io/)
 
 
->*Utilizando datos de la poke api replicar la siguiente funcionalidad
+>* Utilizando datos de la poke api replicar la siguiente funcionalidad
 >
 >![alt text](https://courseit-statics.nyc3.digitaloceanspaces.com/contenido/online/javascript/img/clase18.jpg)
 >
