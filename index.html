@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/icons8-pokeball-48.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <main class="main__container">
+      <div class="title__container">
+        <h1 class="title">Pokedex 2.0</h1>
+        <div class="div-img">
+          <img
+            class="title-img"
+            src="assets/Pokedex_tool_icon-icons.com_67529.svg"
+          />
+        </div>
+      </div>
+      <div class="card__info" id="card_info">
+        <img
+          class="info-img"
+          id="picture"
+          src="assets/crosshairs_question_icon_138711.svg"
+        />
+        <p class="info-name" id="name">...</p>
+      </div>
+      <div class="card__search">
+        <input
+          class="input"
+          id="input"
+          type="text"
+          placeholder="Nombre del pokemon..."
+          onfocus="this.value = ''"
+        />
+        <button onclick="fetchData()" class="button" id="button" type="button">
+          Buscar
+        </button>
+      </div>
+    </main>
+    <footer class="footer">
+      <span class="footer-text"
+        >designed by
+        <a href="https://github.com/juliponti" target="_blank">me</a></span
+      >
+      <img
+        class="footer-img"
+        src="assets/github-logo_icon-icons.com_73546.svg"
+      />
+      <h3 id="text"></h3>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

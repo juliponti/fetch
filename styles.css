@@ -1,0 +1,268 @@
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #d8e5ea;
+  background-image: url("assets/field.jpg");
+  background-size: cover;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 383px;
+  height: 498px;
+  padding: 15px;
+
+  background-color: #da3131;
+  border-radius: 10px;
+}
+
+.title__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 65px;
+  width: 94%;
+}
+
+.title {
+  margin: 0 5px;
+
+  font-family: "Pokemon Solid", sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
+  color: #ffd401;
+}
+
+.div-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 61px;
+  height: 57px;
+
+  margin-top: 10px;
+}
+
+.title-img {
+  width: 58px;
+}
+
+.card__info {
+  width: 87%;
+  height: 60%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-radius: 16px;
+  background-color: #ffffff2b;
+}
+
+.card__info img {
+  width: 40%;
+}
+
+.info-img {
+  width: 60%;
+}
+
+.info-name {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.card__search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  outline: none;
+  border: none;
+  text-decoration: none;
+
+  width: 87%;
+  height: 30px;
+  margin: 5px auto;
+  padding: 7px;
+
+  transition: border 0.3s ease;
+}
+
+.input:focus {
+  border: 1px solid #000;
+}
+
+.button {
+  outline: none;
+  border: none;
+  text-decoration: none;
+
+  width: 87%;
+  height: 40px;
+  margin: 5px auto;
+  border-radius: 5px;
+
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1a1919;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+  height: 16px;
+}
+
+.footer-text {
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.footer-text a {
+  font-family: monospace;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.footer-img {
+  width: 25px;
+}
+
+.error {
+  font-size: 1rem;
+}
+
+.error-img {
+  width: 81%;
+  height: 60%;
+  background-image: url(assets/profe.jpg);
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) and (max-width: 780px) {
+  body {
+    justify-content: space-around;
+  }
+  .main__container {
+    width: 500px;
+    height: 625px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .title-img {
+    width: 75px;
+  }
+
+  .card-info {
+    height: 64%;
+  }
+
+  .input {
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  .button {
+    height: 44px;
+    font-size: 1.2rem;
+  }
+  .error {
+    font-size: 1.5rem;
+    padding: 0 37px;
+  }
+
+  .footer {
+    width: 242px;
+    height: 20px;
+  }
+
+  .footer-text {
+    font-size: 1.5rem;
+  }
+
+  .footer a {
+    font-size: 2rem;
+  }
+
+  .footer-img {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .main__container {
+    width: 340px;
+  }
+
+  .error {
+    padding: 0 26px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main__container {
+    width: 300px;
+  }
+
+  .title {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .main__container {
+    width: 270px;
+  }
+
+  .div-img {
+    display: none;
+  }
+  .title-img {
+    display: none;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .error-img {
+    width: 81%;
+    height: 50%;
+  }
+
+  .error {
+    padding: 0px 24px;
+  }
+}
