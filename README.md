@@ -1,4 +1,4 @@
-# Fetch / Pokedex [[DEMO]](http://pokedex002.atwebpages.com/)
+# Fetch / Pokedex [[DEMO]](https://juliponti.github.io/fetch-pokedex/)
 
 ## Ejercicio para [CourseIt](https://courseit.io/)
 
